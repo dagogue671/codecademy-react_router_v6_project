@@ -4,5 +4,4 @@
 
 Published site on Netlify. Link to the site is below.
 <br/>
-<br/>
 https://codecademy-adoptapet-dagogue671.netlify.app/
