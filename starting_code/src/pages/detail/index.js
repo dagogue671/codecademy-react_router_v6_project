@@ -4,7 +4,7 @@ import Hero from '../../components/hero';
 
 // Import useParams
 // Import Navigate
-import {useParams} from 'react-router-dom';
+import {useParams,Navigate} from 'react-router-dom';
 
 
 const PetDetailsPage = () => {
@@ -35,6 +35,7 @@ const PetDetailsPage = () => {
       ) : error ? (
         <div>
           {/* Redirect to /pet-details-not-found if there was an error! */}
+          <Navigate to={(error) ? '/pet-details-not-found' : ''} />
         </div>
       ) : (
         <main>
